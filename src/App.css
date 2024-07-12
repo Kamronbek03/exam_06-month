@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Mulish;
+  src: url(./assets/fonts/Mulish-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+.app-container {
+  display: flex;
+  background-color: #5b5ce2;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #eeeef5;
+}

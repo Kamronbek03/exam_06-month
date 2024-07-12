@@ -1,0 +1,110 @@
+.all-contents {
+  background-color: #fff;
+  margin: 0 48px 19px 40px;
+  padding: 2px 24px 49px;
+  border-radius: 12px;
+}
+.all-contents .content {
+  font-weight: 700;
+  color: #212121;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 16px;
+  background-color: #f0f0f6;
+  margin-bottom: 6px;
+}
+.border-contents {
+  border: 1px solid #f0f0f6;
+  border-radius: 9px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: 15px;
+  font-weight: 700;
+  color: #212121;
+}
+.form-group span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #f1419d;
+}
+.name {
+  max-width: 764px;
+  width: 100%;
+}
+.neighbors .brand-code {
+  max-width: 362px;
+  width: 100%;
+}
+.neighbors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 49px;
+  margin-right: 317px;
+  margin-bottom: 51px;
+}
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #f6f6fb;
+  border: none;
+  outline: none;
+}
+textarea {
+  max-width: 764px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #f6f6fb;
+  border: none;
+  outline: none;
+  margin-left: 49px;
+  resize: none;
+  margin-bottom: 58px;
+}
+.form-bottom {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 49px;
+}
+.number {
+  max-width: 228px;
+  width: 100%;
+}
+
+.form-actions {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px;
+}
+
+.save-btn,
+.cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #34d399;
+  color: #fff;
+  font-weight: 800;
+}
+
+.cancel-btn {
+  background-color: #f7f7ff;
+  color: #80809b;
+  font-weight: 800;
+}
